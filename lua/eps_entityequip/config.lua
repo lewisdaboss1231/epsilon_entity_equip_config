@@ -2,15 +2,13 @@ EPS_Entity_Equip = {
 	["Entities"] = {
 		["sent_jetpack"] = {
 			Jobs = {
-				[TEAM_CITIZEN] = true,
-				[TEAM_GUN] = true,
+				["Citizen"] = true,
 			},
-			Maps = {"rp_anaxes", "rp_anaxes_2"}, -- List of Maps or keep empty for all maps.
+			Maps = {""}, -- List of Maps or keep empty for all maps.
 		},
-		["entity_two"] = {
+		["sent_jetpack"] = {
 			Jobs = {
-				[TEAM_CITIZEN] = true,
-				[TEAM_GUN] = true,
+				["Gun Dealer"] = true,
 			},
 			Maps = {"gm_flatgrass"}, -- List of Maps or keep empty for all maps.
 		},
